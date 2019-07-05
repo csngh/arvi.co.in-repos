@@ -1,0 +1,14 @@
+<string name="app_name">Street Lights Controller</string>
+    <string name="laneone">LANE ONE</string>
+    <string name="lanetwo">LANE TWO</string>
+    <string name="lanethree">LANE THREE</string>
+    <string name="logout">LOG OUT</string>
+    <string name="login">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="utype">User Type:</string>
+    <string name="user">Enter Username:</string>
+    <string name="pass">Password:</string>
+    <string name="delete">Delete User</string>
+    <string name="hintUsr">Ex: abc</string>
+    <string name="hintPass">Ex: 123</string>
+    <string name="clear">Clear Details</string>

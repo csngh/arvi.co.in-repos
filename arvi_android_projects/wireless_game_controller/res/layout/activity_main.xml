@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="10"
+    tools:context="com.arvi.wgc.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2" >
+
+            <ToggleButton
+                android:id="@+id/actibt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textOff="Activate"
+                android:textOn="Deactivate" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Lane 1              Lane 2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:weightSum="2" >
+
+        <ToggleButton
+            android:id="@+id/toggle1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 1 Off"
+            android:textOn="Light 1 On" />
+
+        <ToggleButton
+            android:id="@+id/toggle5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 5 Off"
+            android:textOn="Light 5 On" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:weightSum="2" >
+
+        <ToggleButton
+            android:id="@+id/toggle2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 2 Off"
+            android:textOn="Light 2 On" />
+
+        <ToggleButton
+            android:id="@+id/toggle6"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 6 Off"
+            android:textOn="Light 6 On" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:weightSum="2" >
+
+        <ToggleButton
+            android:id="@+id/toggle3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 3 Off"
+            android:textOn="Light 3 On" />
+
+        <ToggleButton
+            android:id="@+id/toggle7"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 7 Off"
+            android:textOn="Light 7 On" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:weightSum="2" >
+
+        <ToggleButton
+            android:id="@+id/toggle4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 4 Off"
+            android:textOn="Light 4 On" />
+
+        <ToggleButton
+            android:id="@+id/toggle8"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textOff="Light 8 Off"
+            android:textOn="Light 8 On" />
+    </LinearLayout>
+
+</LinearLayout>
